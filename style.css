@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://image.freepik.com/free-photo/close-up-blank-old-concrete-wall_23-2147856094.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:green;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h3{
+    font-size: 30px;
+}
+.text-box h1{
+    margin: 10px 0 40px;
+    font-size:50px;
+}
+.workflow{
+    color:darkgreen;
+    top:70%;
+    left:30%;
+    position: absolute;
+    text-align: left;
+
+}
+.workflow h4{
+    font-size: 20px;
+}
+.workflow ol li{
+    color: green;
+}
+ nav .fa{
+    display: none;
+}
+  
+  /*----------Aboutus-------*/
+.Aboutus{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #F4CFDF;
+    color: black;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+ } 
+p{
+    color:black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:22px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #9AC8EB;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h5{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+ /* -----contactus-----*/
+.ContactUs{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+    background-color: #F7F6CF;
+}
+  /*nav{
+    display: flex;
+    padding: 2% 6%;b
+    justify-content: space-between;
+    align-items: center;
+  }*/
+nav img{
+    width: 100px;
+  }
+
+
+/*----about us page----*/
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://image.freepik.com/free-photo/free-time-students-bachelor-s-campus-life-rhythm-five-friendly-students-are-walking_8353-6408.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.sub-header h1{
+    color: white;
+    position: absolute;
+    padding-left: 650px;
+    
+}
+.nav-links ul li a{
+    color: white;
+}
+.about-us{
+    width: 80%;
+    margin:auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+    color: black;
+}
+.about-col p{
+    padding: 15px 0 25px;
+    color: black;
+    
+}
+.course-col h5{
+    color:black;
+}
+.about-col h3{
+    color:black;
+}
+.course-col p{
+    color:black;
+}
+.contact-us{
+    width: 100%;
+    margin: auto;
+    /*text-align: center;*/
+    padding-top: 50px;
+    position: absolute;
+    color: black;
+    /*background-color: #F7F6CF;*/
+}
+/*.contact-us{
+    width: 80%;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col div .fa{
+    font-size: 28px;
+    color: red;
+    margin: 10px;
+    margin-right: 30px;
+}*/
